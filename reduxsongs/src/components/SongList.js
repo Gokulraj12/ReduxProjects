@@ -32,7 +32,7 @@ class SongList extends React.Component{
 }
 
 const mapStatetoProps=state=>{
-    console.log(state);
+    //console.log(state);
     return {songs: state.songs} ;
 };
 
